@@ -49,9 +49,12 @@ import IonicSelectableModule to your app.module.ts that is normally located in s
 
 
 ## Step 5:
+
 Configure it.
 
+
 ``
+
 import { IonicSelectableComponent } from 'ionic-selectable';
 
 class Port {
@@ -79,7 +82,6 @@ export class HomePage {
     console.log('port:', event.value);
   }
 }
-
 ``
 
 (Refference)[https://www.npmjs.com/package/ionic-selectable]
