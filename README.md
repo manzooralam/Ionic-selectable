@@ -31,6 +31,7 @@ import IonicSelectableModule to your app.module.ts that is normally located in s
   
   Add it to template.
   
+  
   ``
   <ion-item>
   <ion-label>Port</ion-label>
@@ -41,11 +42,11 @@ import IonicSelectableModule to your app.module.ts that is normally located in s
     itemValueField="id"
     itemTextField="name"
     [canSearch]="true"
-    (onChange)="portChange($event)">
+    ` (onChange)="portChange($event)"> `
   </ionic-selectable>
 </ion-item>
-
 ``
+
 
 ## Step 5:
 Configure it.
